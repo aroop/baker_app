@@ -4,5 +4,7 @@ application.js: application-3d7becb183603113a585f12ceec188fa.js
 application.css: application-95bd4fe1de99c1cd91ec8e6f348a44bd.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-4fbb6a0b9b4e61912f486ac494a858f1.png
 glyphicons-halflings.png: glyphicons-halflings-2ed0cba6eca0f44737ab78f1e58bc11e.png
+baker_server/black_linen_v2.png: baker_server/black_linen_v2-938ebac96df2052c947f4e5b9500b942.png
+baker_server/wood_1.png: baker_server/wood_1-e58ef0f45e9403d0e70f08431184e057.png
 baker_server/application.js: baker_server/application-3656a51f5adeb113f7a7ddb942df7f3b.js
-baker_server/application.css: baker_server/application-8111e7c9c74f9c5ba32493faf0c6a625.css
+baker_server/application.css: baker_server/application-6615fd7056886b502e02411c4daef016.css

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.1'
+gem 'rails', '3.2.2'
 
 gem 'pg', '~> 0.13.0'
 
@@ -21,4 +21,4 @@ gem 'heroku'
 
 
 #gem 'baker_server', :path => '../baker_server'
-gem 'baker_server', :git => 'git://github.com/aroop/baker_server.git', :ref => '627d102f69445076f239ca1a4a1be4121fd813a3'
+gem 'baker_server', :git => 'git://github.com/aroop/baker_server.git', :ref => '32d422017dddf38d7bb4d93456ae4c257e865801'
