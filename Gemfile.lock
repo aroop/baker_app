@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/aroop/baker_server.git
-  revision: ec90fb046336cba9ed88cd3eaec7a0b4a70baeb2
-  ref: ec90fb046336cba9ed88cd3eaec7a0b4a70baeb2
+  revision: d8f7f02c629433f6d5580271f94b116f7955a4d1
+  ref: d8f7f02
   specs:
     baker_server (0.0.1)
       bootstrap-haml-rails
