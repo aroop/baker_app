@@ -4,14 +4,14 @@ app = Dragonfly[:images]
 app.configure_with(:imagemagick)
 app.configure_with(:rails)
 
-if Rails.env == "production"
-  app.datastore = Dragonfly::DataStorage::S3DataStore.new
-  app.datastore.configure do |c|
-    c.bucket_name       = 'baker_app_test'
-    #c.bucket_name       = ENV['S3_BUCKET']
-    c.access_key_id     = ENV['S3_KEY']
-    c.secret_access_key = ENV['S3_SECRET']
-    c.region            = ENV['S3_REGION']
+if Rails.env.production?
+  app.configure do |c|
+    c.datastore = Dragonfly::DataStorage::S3DataStore.new(
+            bucket_name:       ENV['S3_BUCKET'],
+            access_key_id:     ENV['S3_KEY'],
+            secret_access_key: ENV['S3_SECRET'],
+            region:            ENV['S3_REGION']
+    )
   end
 end
 
