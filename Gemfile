@@ -22,5 +22,5 @@ gem 'heroku'
 gem 'fog'
 
 
-gem 'baker_server', :path => '../baker_server'
-# gem 'baker_server', :git => 'git://github.com/aroop/baker_server.git', :ref => 'd8f7f02'
+# gem 'baker_server', :path => '../baker_server'
+gem 'baker_server', :git => 'git://github.com/aroop/baker_server.git', :ref => '5d3148267e431e246b3b70bbd211d8bee94d50ec'
